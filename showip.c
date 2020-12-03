@@ -26,14 +26,6 @@ int main(int argc, char* argv[])
         fprintf(stderr, "please info hostname\n");
         return 1;
     }
-
-    if (strcmp(argv[1], " --help"))
-    {
-        printf("--help        \t| show this page\n");
-        printf("showip adress \t| show ip(v4 and/or v6) of adress\n");
-        return 0;
-    }
-
     
     memset(&hints, 0, sizeof(hints));   // Zerando valores de hints
     hints.ai_family = AF_UNSPEC;        // IPV4 ou IPV6

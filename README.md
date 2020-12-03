@@ -26,10 +26,3 @@ para que possa usar o comando em qualquer local, da seguinte forma:
 
 ``` bash
 showip endereco.com
-```
-
-Em caso de dúvidas, você pode executar:
-
-``` bash
-showip --help
-```
